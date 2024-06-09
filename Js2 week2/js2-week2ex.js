@@ -68,7 +68,6 @@ const expensivePricesListings = listings
   .filter((listing) => listing.price > 4000)
   .map((listing) => listing.price);
 console.log(expensivePricesListings);
-
 const ListingsWithParking = listings.filter((listing) =>
   listing.facilities.includes("Parkering")
 );
